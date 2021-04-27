@@ -28,6 +28,8 @@ public class MovimientoJugador2 : MonoBehaviour
 
     public bool oculto = false;
 
+    public bool noCambio = false;
+
     public bool adelante = true;
     public bool atras = true;
     public bool izquierda = true;
@@ -63,7 +65,7 @@ public class MovimientoJugador2 : MonoBehaviour
     {
 
         // desactivar/activar trigger jugador
-        if (Input.GetKeyDown("p"))
+        if (Input.GetKeyDown("p") && noCambio == false)
         {
             //CamPresente.gameObject.SetActive(true);
             //CamPasado.gameObject.SetActive(false);
@@ -72,7 +74,7 @@ public class MovimientoJugador2 : MonoBehaviour
             //jugador2.SetActive(false);
             GetComponent<CapsuleCollider>().enabled = false;
         }
-        if (Input.GetKeyDown("o"))
+        if (Input.GetKeyDown("o") && noCambio == false)
         {
             //CamPresente.gameObject.SetActive(false);
             //CamPasado.gameObject.SetActive(true);
@@ -329,6 +331,12 @@ public class MovimientoJugador2 : MonoBehaviour
         {
             oculto = true;
         }
+
+        if (other.tag == "noCambio")
+        {
+            noCambio = true;
+        }
+        
     }
 
     private void OnTriggerExit(Collider other)
@@ -339,5 +347,7 @@ public class MovimientoJugador2 : MonoBehaviour
         izquierda = true;
 
         oculto = false;
+
+        noCambio = false;
     }
 }

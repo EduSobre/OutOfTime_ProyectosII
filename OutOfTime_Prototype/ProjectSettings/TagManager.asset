@@ -18,6 +18,10 @@ TagManager:
   - limiteDireccionAtras
   - Camara
   - Oculto
+  - noCambio
+  - BotonLaser
+  - BotonLaser1
+  - BotonLaser2
   layers:
   - Default
   - TransparentFX

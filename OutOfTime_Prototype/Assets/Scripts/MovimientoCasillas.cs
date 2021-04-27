@@ -27,10 +27,18 @@ public class MovimientoCasillas : MonoBehaviour
 
     public bool oculto = false;
 
+    public bool noCambio = false;
+
     public bool adelante = true;
     public bool atras = true;
     public bool izquierda = true;
     public bool derecha = true;
+
+    public bool estoyPresente = true;
+
+    public GameObject laser1;
+    public GameObject laser2;
+
 
     public Pinchos pinchosScript1;
     public Pinchos pinchosScript2;
@@ -64,23 +72,27 @@ public class MovimientoCasillas : MonoBehaviour
     {
 
         //Cambio entre cámaras y desactivar/activar trigger jugador
-        if (Input.GetKeyDown("p"))
-        {
-            CamPresente.gameObject.SetActive(true);
-            CamPasado.gameObject.SetActive(false);
-
-            //jugador1.SetActive(true);
-            //jugador2.SetActive(false);
-            GetComponent<CapsuleCollider>().enabled = true;
-        }
-        if (Input.GetKeyDown("o"))
+        if (Input.GetKeyDown("p") && noCambio == false && estoyPresente == true)
         {
             CamPresente.gameObject.SetActive(false);
             CamPasado.gameObject.SetActive(true);
-
+            transform.Translate(50f, 0f, 0f);
+            //jugador1.SetActive(true);
+            //jugador2.SetActive(false);
+            //GetComponent<CapsuleCollider>().enabled = true;
+            estoyPresente = false;
+                
+        }
+        if (Input.GetKeyDown("o") && noCambio == false && estoyPresente == false)
+        {
+            CamPresente.gameObject.SetActive(true);
+            CamPasado.gameObject.SetActive(false);
+            transform.Translate(-50f, 0f, 0f);
             //jugador1.SetActive(false);
             //jugador2.SetActive(true);
-            GetComponent<CapsuleCollider>().enabled = false;
+            //GetComponent<CapsuleCollider>().enabled = false;
+            estoyPresente = true;
+            
 
         }
 
@@ -255,8 +267,10 @@ public class MovimientoCasillas : MonoBehaviour
         //Colisiones con pinchos
         if (colision.tag == "Pincho")
         {
-            SceneManager.LoadScene(nivelMuerte);
+            //SceneManager.LoadScene(nivelMuerte);
             Debug.Log("Pinchado");
+           /*Provisional*/ SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         }
         //Colision con final
         if (colision.tag == "Final" && tesoro == true)
@@ -270,6 +284,7 @@ public class MovimientoCasillas : MonoBehaviour
             puerta1.layer = 0;
             puerta1.GetComponent<BoxCollider>().enabled = false;
             Debug.Log("DesactivadaPuerta");
+            Destroy(puerta1);
         }
         //Colision con boton con necesidad de llave
         if (colision.tag == "BotonLlave" && llave == true)
@@ -277,6 +292,8 @@ public class MovimientoCasillas : MonoBehaviour
             puertaLlave1.layer = 0;
             puertaLlave1.GetComponent<BoxCollider>().enabled = false;
             Debug.Log("DesactivadaPuertaLlave");
+            Destroy(puertaLlave1);
+
         }
         //Colision recoger llave
         if (colision.tag == "Llave")
@@ -285,14 +302,27 @@ public class MovimientoCasillas : MonoBehaviour
             Debug.Log("Llave recogida");
             Destroy(llaveObjeto);
         }
+        if (colision.tag == "BotonLaser1")
+        {            
+            Debug.Log("LaserDesactivado");
+            Destroy(laser1);
+        }
+        if (colision.tag == "BotonLaser2")
+        {            
+            Debug.Log("LaserDesactivado");
+            Destroy(laser2);
+        }
         //Colision laser
         if (colision.tag == "Laser")
         {
             SceneManager.LoadScene(nivelMuerte);
             Debug.Log("Lasereado");
+            /*Provisional*/
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
 
         }
-        //recogidatesoto
+        //recogidatesoro
         if (colision.tag == "Tesoro")
         {
             tesoro = true;
@@ -304,6 +334,9 @@ public class MovimientoCasillas : MonoBehaviour
         {
             SceneManager.LoadScene(nivelMuerte);
             Debug.Log("Enfocado con camara");
+            /*Provisional*/
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
         }
 
     }
@@ -338,6 +371,15 @@ public class MovimientoCasillas : MonoBehaviour
         {
             oculto = true;
         }
+
+        if (other.tag == "noCambio")
+        {
+            noCambio = true;
+        }
+        else
+        {
+            noCambio = false;
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -348,6 +390,8 @@ public class MovimientoCasillas : MonoBehaviour
         izquierda = true;
 
         oculto = false;
+
+        noCambio = false;
 
     }
 }

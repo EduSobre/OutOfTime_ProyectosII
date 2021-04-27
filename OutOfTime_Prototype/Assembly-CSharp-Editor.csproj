@@ -274,7 +274,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -631,109 +631,109 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>G:/GameDesign/Juegos/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/OutOfTime/OutOfTime_ProyectosII/OutOfTime_Prototype/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
