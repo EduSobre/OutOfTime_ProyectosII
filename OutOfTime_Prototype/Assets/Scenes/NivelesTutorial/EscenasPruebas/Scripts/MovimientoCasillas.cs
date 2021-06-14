@@ -14,6 +14,10 @@ public class MovimientoCasillas : MonoBehaviour
     public string nivelMuerte;
 
     public GameObject puerta1;
+    public GameObject puerta2;
+    public GameObject puerta3;
+    public GameObject puerta4;
+
     public GameObject puertaLlave1;
 
     public GameObject llaveObjeto;
@@ -39,28 +43,31 @@ public class MovimientoCasillas : MonoBehaviour
     public GameObject laser1;
     public GameObject laser2;
 
+    public Pinchos pinchos1;
+    public Pinchos pinchos2;
+    public Pinchos pinchos3;
+    public Pinchos pinchos4;
+    public Pinchos pinchos5;
+    public Pinchos pinchos6;
+    public Pinchos pinchos7;
+    public Pinchos pinchos8;
 
-    public Pinchos pinchosScript1;
-    public Pinchos pinchosScript2;
-    public Pinchos pinchosScript3;
-    public Pinchos pinchosScript4;
-    public Pinchos pinchosScript5;
-    public Pinchos pinchosScript6;
-    public Pinchos pinchosScript7;
-    public Pinchos pinchosScript8;
-    public Pinchos pinchosScript9;
-    public Pinchos pinchosScript10;
+    public Camara camara1;
+    public Camara camara2;
+    public Camara camara3;
+    public Camara camara4;
+    public Camara camara5;
+    public Camara camara6;
+    public Camara camara7;
+    public Camara camara8;
 
-    public Camara camaraScript1;
-    public Camara camaraScript2;
-    public Camara camaraScript3;
-    public Camara camaraScript4;
-    public Camara camaraScript5;
-    public Camara camaraScript6;
-    public Camara camaraScript7;
-    public Camara camaraScript8;
-    public Camara camaraScript9;
-    public Camara camaraScript10;
+
+
+
+    public List<Camara> camaraScript;
+    public List<Pinchos> pinchoScript;
+
+
 
     void Start()
     {
@@ -111,31 +118,23 @@ public class MovimientoCasillas : MonoBehaviour
             {
                 transform.Translate(0f, 0f, 1f);
 
-                pinchosScript1.TurnoPincho();
-                pinchosScript2.TurnoPincho();
-                pinchosScript3.TurnoPincho();
-                pinchosScript4.TurnoPincho();
-                pinchosScript5.TurnoPincho();
-                pinchosScript6.TurnoPincho();
-                pinchosScript7.TurnoPincho();
-                pinchosScript8.TurnoPincho();
-                pinchosScript9.TurnoPincho();
-                pinchosScript10.TurnoPincho();
-               
+                pinchos1.TurnoPincho();
+                pinchos2.TurnoPincho();
+                pinchos3.TurnoPincho();
+                pinchos4.TurnoPincho();
+                pinchos5.TurnoPincho();
+                pinchos6.TurnoPincho();
+                pinchos7.TurnoPincho();
+                pinchos8.TurnoPincho();
 
-
-
-                camaraScript1.TurnoCamara();
-                camaraScript2.TurnoCamara();
-                camaraScript3.TurnoCamara();
-                camaraScript4.TurnoCamara();
-                camaraScript5.TurnoCamara();
-                camaraScript6.TurnoCamara();
-                camaraScript7.TurnoCamara();
-                camaraScript8.TurnoCamara();
-                camaraScript9.TurnoCamara();
-                camaraScript10.TurnoCamara();
-
+                camara1.TurnoCamara();
+                camara2.TurnoCamara();
+                camara3.TurnoCamara();
+                camara4.TurnoCamara();
+                camara5.TurnoCamara();
+                camara6.TurnoCamara();
+                camara7.TurnoCamara();
+                camara8.TurnoCamara();
 
             }
 
@@ -152,27 +151,25 @@ public class MovimientoCasillas : MonoBehaviour
             else
             {
                 transform.Translate(0f, 0f, -1f);
-                pinchosScript1.TurnoPincho();
-                pinchosScript2.TurnoPincho();
-                pinchosScript3.TurnoPincho();
-                pinchosScript4.TurnoPincho();
-                pinchosScript5.TurnoPincho();
-                pinchosScript6.TurnoPincho();
-                pinchosScript7.TurnoPincho();
-                pinchosScript8.TurnoPincho();
-                pinchosScript9.TurnoPincho();
-                pinchosScript10.TurnoPincho();
 
-                camaraScript1.TurnoCamara();
-                camaraScript2.TurnoCamara();
-                camaraScript3.TurnoCamara();
-                camaraScript4.TurnoCamara();
-                camaraScript5.TurnoCamara();
-                camaraScript6.TurnoCamara();
-                camaraScript7.TurnoCamara();
-                camaraScript8.TurnoCamara();
-                camaraScript9.TurnoCamara();
-                camaraScript10.TurnoCamara();
+                pinchos1.TurnoPincho();
+                pinchos2.TurnoPincho();
+                pinchos3.TurnoPincho();
+                pinchos4.TurnoPincho();
+                pinchos5.TurnoPincho();
+                pinchos6.TurnoPincho();
+                pinchos7.TurnoPincho();
+                pinchos8.TurnoPincho();
+
+                camara1.TurnoCamara();
+                camara2.TurnoCamara();
+                camara3.TurnoCamara();
+                camara4.TurnoCamara();
+                camara5.TurnoCamara();
+                camara6.TurnoCamara();
+                camara7.TurnoCamara();
+                camara8.TurnoCamara();
+
 
 
 
@@ -192,29 +189,24 @@ public class MovimientoCasillas : MonoBehaviour
             else
             {
                 transform.Translate(-1f, 0f, 0f);
-                pinchosScript1.TurnoPincho();
-                pinchosScript2.TurnoPincho();
-                pinchosScript3.TurnoPincho();
-                pinchosScript4.TurnoPincho();
-                pinchosScript5.TurnoPincho();
-                pinchosScript6.TurnoPincho();
-                pinchosScript7.TurnoPincho();
-                pinchosScript8.TurnoPincho();
-                pinchosScript9.TurnoPincho();
-                pinchosScript10.TurnoPincho();
 
-                camaraScript1.TurnoCamara();
-                camaraScript2.TurnoCamara();
-                camaraScript3.TurnoCamara();
-                camaraScript4.TurnoCamara();
-                camaraScript5.TurnoCamara();
-                camaraScript6.TurnoCamara();
-                camaraScript7.TurnoCamara();
-                camaraScript8.TurnoCamara();
-                camaraScript9.TurnoCamara();
-                camaraScript10.TurnoCamara();
+                pinchos1.TurnoPincho();
+                pinchos2.TurnoPincho();
+                pinchos3.TurnoPincho();
+                pinchos4.TurnoPincho();
+                pinchos5.TurnoPincho();
+                pinchos6.TurnoPincho();
+                pinchos7.TurnoPincho();
+                pinchos8.TurnoPincho();
 
-
+                camara1.TurnoCamara();
+                camara2.TurnoCamara();
+                camara3.TurnoCamara();
+                camara4.TurnoCamara();
+                camara5.TurnoCamara();
+                camara6.TurnoCamara();
+                camara7.TurnoCamara();
+                camara8.TurnoCamara();
 
             }
         }
@@ -230,28 +222,24 @@ public class MovimientoCasillas : MonoBehaviour
             else
             {
                 transform.Translate(1f, 0f, 0f);
-                pinchosScript1.TurnoPincho();
-                pinchosScript2.TurnoPincho();
-                pinchosScript3.TurnoPincho();
-                pinchosScript4.TurnoPincho();
-                pinchosScript5.TurnoPincho();
-                pinchosScript6.TurnoPincho();
-                pinchosScript7.TurnoPincho();
-                pinchosScript8.TurnoPincho();
-                pinchosScript9.TurnoPincho();
-                pinchosScript10.TurnoPincho();
 
-                camaraScript1.TurnoCamara();
-                camaraScript2.TurnoCamara();
-                camaraScript3.TurnoCamara();
-                camaraScript4.TurnoCamara();
-                camaraScript5.TurnoCamara();
-                camaraScript6.TurnoCamara();
-                camaraScript7.TurnoCamara();
-                camaraScript8.TurnoCamara();
-                camaraScript9.TurnoCamara();
-                camaraScript10.TurnoCamara();
+                pinchos1.TurnoPincho();
+                pinchos2.TurnoPincho();
+                pinchos3.TurnoPincho();
+                pinchos4.TurnoPincho();
+                pinchos5.TurnoPincho();
+                pinchos6.TurnoPincho();
+                pinchos7.TurnoPincho();
+                pinchos8.TurnoPincho();
 
+                camara1.TurnoCamara();
+                camara2.TurnoCamara();
+                camara3.TurnoCamara();
+                camara4.TurnoCamara();
+                camara5.TurnoCamara();
+                camara6.TurnoCamara();
+                camara7.TurnoCamara();
+                camara8.TurnoCamara();
 
 
             }
@@ -285,6 +273,27 @@ public class MovimientoCasillas : MonoBehaviour
             puerta1.GetComponent<BoxCollider>().enabled = false;
             Debug.Log("DesactivadaPuerta");
             Destroy(puerta1);
+        }
+        if (colision.tag == "Boton2")
+        {
+            puerta2.layer = 0;
+            puerta2.GetComponent<BoxCollider>().enabled = false;
+            Debug.Log("DesactivadaPuerta");
+            Destroy(puerta2);
+        }
+        if (colision.tag == "Boton3")
+        {
+            puerta3.layer = 0;
+            puerta3.GetComponent<BoxCollider>().enabled = false;
+            Debug.Log("DesactivadaPuerta");
+            Destroy(puerta3);
+        }
+        if (colision.tag == "Boton4")
+        {
+            puerta4.layer = 0;
+            puerta4.GetComponent<BoxCollider>().enabled = false;
+            Debug.Log("DesactivadaPuerta");
+            Destroy(puerta4);
         }
         //Colision con boton con necesidad de llave
         if (colision.tag == "BotonLlave" && llave == true)

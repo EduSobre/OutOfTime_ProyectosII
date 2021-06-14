@@ -30,4 +30,9 @@ public class Script_MenuPrincipal : MonoBehaviour
         SceneManager.LoadScene(nombreNivel);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Hemos salido");
+    }
 }

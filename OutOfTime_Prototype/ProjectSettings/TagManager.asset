@@ -22,6 +22,9 @@ TagManager:
   - BotonLaser
   - BotonLaser1
   - BotonLaser2
+  - Boton2
+  - Boton3
+  - Boton4
   layers:
   - Default
   - TransparentFX
